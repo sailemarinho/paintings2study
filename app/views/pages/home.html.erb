@@ -2,7 +2,9 @@
   <div class="container">
     <h1>Painting study brings <strong>marvelous arts</strong> to <strong>creative people</strong>!</h1>
     <p>Change your life and buy some cool paintings.</p>
-    <a class="btn btn-light" href="#">Buy now</a>
+    <div class="btn btn-light">
+      <%= link_to "Create now", new_artist_painting_path([:artist]) %>
+    </div>
   </div>
 </div>
 
